@@ -6,3 +6,9 @@ def index(request):
 
 def welcome(request):
     return render(request, 'main/welcome.html')
+
+def map(request):
+    return render(request, 'main/map.html')
+
+def info(request):
+    return render(request, 'main/info.html')
